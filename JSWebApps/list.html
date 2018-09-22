@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="toDoList.js"></script>
+  </head>
+  <body>
+  <h1 align="center">To do list testing</h1>
+  <div class="mainBody">
+    <ul id="toDo">
+        
+    </ul>
+  </div>
+  Activity Name<input type="text" name="activityName" id="activityNamer" onKeyDown="checkForEnter()"><br>
+  <button id="activityButton"onclick="addActivity()">Insert activity</button>
+  </body>
+  <style>
+    body {background-color: powderblue;}
+    .mainBody {height: 300px;}
+    .mainBody ul  {
+        height: 200px;
+        background-color: red;
+        text-decoration: none;
+    }
+  </style>
+</html>
